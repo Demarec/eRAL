@@ -1,0 +1,48 @@
+# eRAL Add-In Installation Guide
+## Overview
+The eRAL Add-In package integrates with Autodesk Inventor, offering enhanced functionality to modify the colors of faces, solids, parts and occurences. This guide will walk you through the installation process.
+
+## Directory Structure
+The eRAL Add-In consists of the following components:
+
+eRAL directory: Contains the core files.
+
+eRAL.dll
+
+eRAL.addin
+
+ButtonResources subdirectory: Contains all images for the buttons.
+
+Important: Do not alter the directory structure. Any changes may cause the add-in to malfunction.
+
+## Installation Instructions
+### Step 1: Copy the Files
+
+Copy the entire eRAL directory.
+
+Paste it into the following path on your system:  C:\Users\YourName\AppData\Roaming\Autodesk\ApplicationPlugins
+
+Replace YourName with your actual Windows username.
+
+### Step 2: Launch Autodesk Inventor
+
+Open Autodesk Inventor Professional.
+
+A security prompt titled Add-in Manager Security Alert will appear, indicating that a new add-in has been found.
+
+Click OK to accept and proceed.
+### Step 3: Enable the Add-In
+
+In Autodesk Inventor, go to the Options panel.
+
+Select the +Add-in field to open the Add-in Manager.
+
+In the Add-in Manager, go to the Applications tab (if not already selected).
+
+Search for eRAL in the list of applications.
+
+Once eRAL is listed, the add-in is now ready for use!
+
+The button of the add-in will be in the assemble ribbon.
+
+## Enjoy working with the eSteel Add-In!
